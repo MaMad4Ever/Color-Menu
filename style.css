@@ -1,0 +1,86 @@
+body{
+  background-color: #0F171D;
+}
+
+#container {
+  position:absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+ul {
+  position:relative;
+  width: 250px;
+  height: 520px;
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.9px);
+  -webkit-backdrop-filter: blur(6.9px);
+  display:flex;
+  justify-content: start;
+  place-items: center;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 15px;
+  border-radius: 10px;
+}
+ul li{
+  position:relative;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.9px);
+  -webkit-backdrop-filter: blur(6.9px);
+  height: 50px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  text-decoration: none;
+  margin-left: 0;
+  left: 0;
+  transform: translate(-20px);
+  cursor: pointer;
+  transition: 500ms;
+  font-family: font;
+  color:white;
+}
+ul span{
+  padding:25px;
+  font-family: font;
+  color:white;
+  transform: translate(-20px);
+}
+ul li:nth-child(2):hover{
+  color:#000;
+  background: #6F4E37;
+}
+ul li:nth-child(3):hover{
+  color:#000;
+  background: #D23B68;
+}
+ul li:nth-child(4):hover{
+  color:#000;
+  background: #7E0E4C;
+}
+ul li:nth-child(5):hover{
+  color:#000;
+  background: #DC143C;
+}
+ul li:nth-child(6):hover{
+  color:#000;
+  background: #8BD0EC;
+}
+ul li:nth-child(7):hover{
+  color:#000;
+  background: #E9C12A;
+}
+
+@font-face {
+  font-family: font;
+  src: url(../IRANSansDN-Bold.ttf);
+}
