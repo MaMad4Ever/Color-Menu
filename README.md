@@ -3,7 +3,7 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Best of JS](https://img.shields.io/endpoint?url=https://bestofjs-serverless.now.sh/api/project-badge?fullName=coliff%2Fdark-mode-switch%26since=monthly)](https://bestofjs.org/projects/dark-mode-switch)
 
-# 🎴 Color-Menu
+# 🎨 Color-Menu
 Color Menu with html.
 
 
